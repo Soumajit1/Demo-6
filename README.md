@@ -1,4 +1,3 @@
 class Solution {
  public:
-  string longestCommonPrefix(vector<string>& strs) {
-    if
+  string longestCommonPrefix(vector<strin
