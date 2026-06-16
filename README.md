@@ -5,10 +5,6 @@ class Solution {
     stack<TreeNode*> stack;
     while (root != nullptr || !stack.empty()) {
       while (root != nullptr) {
-        stack.push(root);
-        root = root->left;
-      }
-      root = stack.top(), stack.pop();
-      ans.push_back(root->val);
+        stack.push(roo
       root = root->right;
 
