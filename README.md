@@ -9,12 +9,7 @@ public:
         // Reverse the second half of the number
         int reversedHal than or equal to the remaining part
         while (reversedHalf < x) {
-            // Extract the last digit and append to reversed half
-            reversedHalf = reversedHalf * 10 + x % 10;
-            // Remove the last digit from original number
-            x /= 10;
-        }
-        // For even length numbers: check if both halves are equal
+            // Extra
         // For odd length numbers: check if x equals reversedHalf without the middle digit
         return x == reversedHalf || x == reversedHalf / 10;
     }
