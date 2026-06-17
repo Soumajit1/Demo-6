@@ -7,8 +7,7 @@ public:
             return false;
         }
         // Reverse the second half of the number
-        int reversedHalf = 0;
-        // Continue until the reversed half is greater than or equal to the remaining part
+        int reversedHal than or equal to the remaining part
         while (reversedHalf < x) {
             // Extract the last digit and append to reversed half
             reversedHalf = reversedHalf * 10 + x % 10;
