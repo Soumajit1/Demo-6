@@ -5,5 +5,3 @@ public:
             ++digits[i];
             digits[i] %= 10;
         return digits;
-    }
-};
