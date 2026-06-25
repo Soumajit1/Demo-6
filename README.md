@@ -3,11 +3,7 @@
  * struct TreeNode {
 
 public:
-    vector<int> preorderTraversal(TreeNode* root) {
-        ve/**
- * Definition for a binary tree node.
- * struct TreeNode {\t(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    veNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
