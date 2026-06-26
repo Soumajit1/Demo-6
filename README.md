@@ -12,10 +12,6 @@ public:
         vector<int> 
             }
     }
-};
-        while (stk.size()) {
-            auto node = stk.top();
-            stk.pop();
             ans.push_back(node->val);
             if (node->right) {
                 stk.push(node->right);
