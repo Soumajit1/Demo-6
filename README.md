@@ -11,12 +11,6 @@ public:
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int> 
             }
-            dfs(root->left);
-            dfs(root->right);
-            ans.push_back(root->val);
-        };
-        dfs(root);
-        return ans;
     }
 };
         while (stk.size()) {
